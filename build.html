@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <script>
+// KIANAH JOY AMBUYOC
+
+
+        // Array of Numbers
+        const numbers = [45, 4, 9, 16, 25];
+
+        // forEach() that defines logic for each element
+        numbers.forEach(number => {
+            if (number % 2 === 0 && number > 20) {
+                document.write(number + " is even and greater than 20.<br>");
+            } else if (number % 5 === 0 && number % 2 !== 0) {
+                document.write(number + " is divisible by 5 but not even." +"<br>");
+            } else {
+                document.write(number + " is less than or equal to 20 or odd." + "<br>");
+            }
+        });
+    </script>
+</body>
+</html>
